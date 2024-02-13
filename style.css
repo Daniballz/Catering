@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero header{
+    height: 50px;
+    width: 1400px;
+    background-color: white;
+    box-shadow: 0 0 2px 0;
+    padding-top: 10px;
+    position: fixed;
+}
+
+.hero header p{
+    margin: 0 700px 0 30px;
+    float: left;
+    padding: 12px 10px;
+}
+
+.hero header p a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+
+.hero header p:hover{
+    background-color: grey;
+    padding: 10px 8px;
+}
+
+.hero header ul{
+    padding-top: 12px;
+    font-size: 18px;
+}
+
+.hero header ul li{
+    display: inline-block;
+}
+
+.hero header ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 15px 10px;
+    letter-spacing: 4px;
+}
+
+.hero header ul li a:hover{
+    background-color: grey;
+    padding: 10px 8px;
+}
+
+.hero .banner{
+    background: url(img/hamburger.jpg) no-repeat center/cover;
+    height: 700px;
+    margin-bottom: 9%;
+}
+
+.hero .banner h1{
+    padding: 650px 0 0 50px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    opacity: 0.5;
+}
+
+.hero .about img{
+    float: left;
+    padding: 0 50px 0 100px;
+}
+
+.hero .about h1{
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+
+.hero .about h3{
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.hero .about p{
+    font-size: 17px;
+    line-height: 30px;
+    margin-right: 100px;
+}
+
+.hero .about .except{
+    opacity: .7;
+    margin-top: 20px;
+}
+
+.hero .about .season{
+    background-color: rgb(218, 205, 205);
+    padding: 5px 5px;
+}
+
+ .hero .clear{
+    margin-top: 370px;
+    margin-bottom: 100px;
+    margin-left: 90px;
+    margin-right: 90px;
+    opacity: .5;
+    clear: both;
+    
+}
+
+.hero .menu img{
+    float: right;
+    padding: 0 100px 0 0;
+}
+
+.hero .menu h1{
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+
+.hero .menu h2{
+    font-weight: 100;
+    letter-spacing: 4px;
+    font-size: 20px;
+    padding-left: 100px;
+    margin-bottom: 20px;
+}
+
+.hero .menu p{
+    padding-left: 100px;
+    margin-bottom: 50px;
+    opacity: .7;
+}
+
+.hero .clear2{
+    margin-top: 250px;
+    margin-bottom: 100px;
+    margin-left: 90px;
+    margin-right: 90px;
+    opacity: .5;
+    clear: both;
+}
+
+.hero .contact{
+    padding: 0 100px;
+}
+
+.hero .contact h1{
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+
+.hero .contact .address{
+    color: rgb(95, 95, 182);
+    font-size: 20px;
+}
+
+.hero .contact form input{
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    line-height: 40px; 
+    text-indent: 10px;
+    padding: 10px 0;
+}
+
+.hero .contact form button{
+    padding: 10px 10px;
+    border: none;
+}
